@@ -8,7 +8,7 @@ This is an Android Task Manager Application built using **Kotlin** that allows u
 - **View Tasks:** Display a list of all tasks stored in the Room database.
 - **Update Tasks:** Modify task details, such as the task name, description, and status.
 - **Delete Tasks:** Remove tasks that are no longer required.
-- **Task Status:** Users can update the status of tasks (e.g., pending, in-progress, or completed).
+- **Task Status:** Users can update the status of tasks.
 - **Data Persistance** Since it uses Room Database, tasks are available even without internet access.
 - **Simple UI:** User-friendly interface with a focus on task management efficiency.
 
