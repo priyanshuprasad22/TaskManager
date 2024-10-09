@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryVariant">#1A1A1A</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="background">#000000</color>
+    <color name="textColor">@color/white</color>
+
+    <color name="cardBackground">#585353</color>
+    <color name="spinnerbackground">#585353</color>
+    <color name="spinnertextColor">#FFFFFF</color>
+
+</resources>

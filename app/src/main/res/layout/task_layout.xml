@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardBackground"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Complete UI Task" />
+
+
+    <TextView
+        android:id="@+id/taskDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="Task Description"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/taskTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Design a user-friendly UI for the task manager application" />
+
+
+    <TextView
+        android:id="@+id/priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="Priority:"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/taskDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Priority: High" />
+
+
+    <TextView
+        android:id="@+id/taskDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due Date: 2024-10-10"
+        android:textSize="12sp"
+        android:textColor="?android:colorPrimary"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/priority"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Due Date: 2024-10-10" />
+
+
+    <CheckBox
+        android:id="@+id/taskComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@+id/taskDate"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/deleteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Delete task"
+        android:padding="4dp"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        app:layout_constraintTop_toTopOf="@+id/taskComplete"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
