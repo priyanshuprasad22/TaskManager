@@ -30,3 +30,13 @@ This is an Android Task Manager Application built using **Kotlin** that allows u
 1. **Clone the repository:**
    ```bash
    https://github.com/priyanshuprasad22/TaskManager
+2. **Open the project** in **Android Studio**:
+    - Launch Android Studio and select **Open an existing project**.
+    - Navigate to the directory where you cloned the project and select it.
+
+3. **Sync the project** to install dependencies:
+    - After opening the project, Android Studio will prompt you to sync the project. Make sure to sync to install all dependencies.
+
+4. **Run the app**:
+    - Connect your Android device or start an emulator.
+    - Click on the **Run** button in Android Studio or use the shortcut `Shift + F10`.
