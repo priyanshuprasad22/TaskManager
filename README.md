@@ -34,6 +34,10 @@ The `Task` entity represents a task in the application and includes the followin
 - **description**: A more detailed explanation of the task, outlining the specifics or requirements.
 - **dueDate**: The date by which the task should be completed, helping users prioritize their workload.
 - **status**: The current state of the task, which can indicate whether the task is "Not Completed." or "Completed."
+- **priority**: An integer representing the task's priority level, with possible values:
+  - **0**: Low priority
+  - **1**: Medium priority
+  - **2**: High priority
 
 
 
